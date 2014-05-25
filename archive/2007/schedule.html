@@ -1,0 +1,504 @@
+<!-- ----------------------------------------------------------------------
+  -- CUFP 2007 Abstracts
+  -- ----------------------------------------------------------------------
+  -->
+
+<!-- Header -->
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+  <TITLE>
+    Commercial Users of Functional Programming 2007 Program
+  </TITLE>
+
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>John Launchbury</o:Author>
+  <o:Template>Normal</o:Template>
+  <o:LastAuthor>John Launchbury</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>0</o:TotalTime>
+  <o:LastPrinted>2004-03-04T18:34:00Z</o:LastPrinted>
+  <o:Created>2004-09-09T23:08:00Z</o:Created>
+  <o:LastSaved>2004-09-09T23:08:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>338</o:Words>
+  <o:Characters>1927</o:Characters>
+  <o:Company>Galois Connections</o:Company>
+  <o:Lines>16</o:Lines>
+  <o:Paragraphs>3</o:Paragraphs>
+  <o:CharactersWithSpaces>2366</o:CharactersWithSpaces>
+  <o:Version>10.260</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:DisplayHorizontalDrawingGridEvery>0</w:DisplayHorizontalDrawingGridEvery>
+  <w:DisplayVerticalDrawingGridEvery>0</w:DisplayVerticalDrawingGridEvery>
+  <w:UseMarginsForDrawingGridOrigin/>
+ </w:WordDocument>
+</xml><![endif]-->
+<style  type="text/css">
+<!--
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:Times;}
+h1
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	font-size:16.0pt;
+	font-family:Helvetica;
+	mso-font-kerning:16.0pt;}
+h2
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:2;
+	font-size:14.0pt;
+	font-family:Helvetica;
+	font-style:italic;}
+h3
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:3;
+	font-size:13.0pt;
+	font-family:Helvetica;}
+a:link, span.MsoHyperlink
+	{color:green;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:green;
+	text-decoration:underline;
+	text-underline:single;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:.5in 63.0pt 45.0pt 63.0pt;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+@list l0
+	{mso-list-id:12850081;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1750415018 66569 197641 328713 66569 197641 328713 66569 197641 328713;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        color:  black;
+        background-color: white;
+      }
+      table.main  { 
+        width: 95%;
+        border: 0;
+        border-spacing: 0;
+        margin: 0 0 0 0;
+        padding: 1em 1em 1em 5%;
+        background-color: white;
+      }
+      table.main td.solid { 
+        border: 0;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        background-color: #EEEEEE;
+      }
+      table.main td.corner { 
+        width: 23px;
+        height: 23px;
+        border: 0;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        background-color: white;
+      }
+      table.main td.corner img { 
+        width: 23px;
+        height: 23px;
+        border: 0;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+      }
+      table.main td.side { 
+        width: 23px;
+        border: 0;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        background-color: #EEEEEE;
+      }
+      table.speakers {
+        border: 0;
+        border-spacing: 0;
+        margin: 0 0 0 0;
+        padding: 1em 1em 0 0;
+        background-color: #EEEEEE;
+      }
+      table.speakers td.name a {
+        text-decoration: none;
+        font-weight: bold;
+        color:  #006331;
+        margin: 0 0 0 2ex;
+      }
+
+      table.speakers td.inst {
+      }
+      table.speakers td.topic {
+        font-style: italic;
+        font-weight: 200;
+        padding: 0 0 1.5ex 0;
+      }
+      table.speakers td.topic a {
+        text-decoration: none;
+        font-weight: 200;
+        color:  #006331;
+      }
+      p.heading {
+        text-align:  center;
+        font-weight: bold;
+        font-size: larger;
+        color:  #000000;
+      }
+      p.copyright {
+        text-align: center;
+        font-size: x-small;
+        color: #000066;
+      }
+
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1027">
+  <o:colormru v:ext="edit" colors="#d2e6ff,#e0e0e0"/>
+  <o:colormenu v:ext="edit" fillcolor="#e0e0e0"/>
+ </o:shapedefaults></xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body bgcolor="#FFFFFF" lang=EN-US link=green vlink=green style='tab-interval:.5in'>
+  <table class="main">
+    <tr>
+      <td class="corner"><img src="../images/smallUL.gif"></td>
+      <td class="solid"></td>
+      <td class="corner"><img src="../images/smallUR.gif"></td>
+    </tr>
+   <tr>
+      <td class="side">&nbsp;</td>
+      <td class="solid" align="left">
+
+<H1 align="center"><A HREF="main.html">CUFP 2007</a> Program</H1>
+
+<P>
+
+<table border=0 cellspacing=20 cellpadding=0 align=center>
+<tr>
+
+<!-- First talk -->
+<td width=51 valign=top align=right>
+<b>9:00</b>
+</td>
+
+<td width=425 valign=top>
+<b>Invited talk:</b> <i>Industrial uses of Caml: Examples and lessons learned from the smart card industry</i>.<br>
+Xavier Leroy, INRIA. 
+<A HREF="abstracts.html#XavierLeroy"><i>Abstract</i></A>.
+<A HREF="slides/XavierLeroy.pdf" target="speaker"><i>Slides (pdf)</i></A>. Video
+<a href="http://video.google.com/videoplay?docid=6801989831460075211&q=CUFP07"><i>Part 1</i></a>, 
+<a href="http://video.google.com/videoplay?docid=7133917398524101303&q=CUFP07"><i>Part 2</i></a>
+<!--    
+ <A HREF="slides/2007/XavierLeroy.ppt"><i>Slides (ppt)</i></A>.
+-->
+</td>
+</tr>
+
+<!-- Second talk -->
+<tr>
+<td width=51 valign=top align=right>
+<b>9:55</b>
+</td>
+
+<td width=425 valign=top>
+<i>The Way it Ought to Work... and Sometimes Does</i>.
+Ulf Wiger, Ericsson. 
+<A HREF="abstracts.html#UlfWiger"><i>Abstract</i></A>.
+<!--
+     <A HREF="slides/UlfWiger.pdf"><i>Slides (pdf)</i></A>.
+-->
+</td>
+</tr>
+
+<!-- Third talk -->
+<tr>
+<td width=51 valign=top align=right>
+<b>10:20</b>
+</td>
+
+<td width=425 valign=top>
+<i>The default case in Haskell: <br>Counterparty credit risk calculation at ABN AMRO</i>.<br>
+Cyril Schmidt and Anne-Elisabeth Tran Qui, ABN AMRO.
+<A HREF="abstracts.html#CyrilSchmidt"><i>Abstract</i></A>.
+<A HREF="slides/CyrilSchmidt.ppt"><i>Slides (ppt)</i></A>.
+<a href="http://video.google.com/videoplay?docid=-63457249532535574&q=CUFP07"><i>Video</i></a>
+</td>
+</tr>
+
+<!-- Morning Tea -->
+<tr>
+<td width=51 valign=top align=right>
+<b>10:45</b>
+</td>
+
+<td width=425 valign=top>
+<b>B R E A K</b>
+</td>
+</tr>
+
+<!-- Fourth talk -->
+<tr>
+<td width=51 valign=top align=right>
+<b>11:15</b>
+</td>
+
+<td width=425 valign=top>
+<i>Nested Data Parallel Programming at Intel</i>.<br>
+Anwar Ghuloum, Intel. 
+<A HREF="abstracts.html#AnwarGhuloum"><i>Abstract</i></A>.
+<A HREF="slides/AnwarGhuloum.pdf" target="speaker"><i>Slides (pdf)</i></A>.
+<a href="http://video.google.com/videoplay?docid=-4906756118329924337&q=CUFP07"><i>Video</i></a>
+</td>
+</tr>
+
+<!-- Fifth talk -->
+<tr>
+<td width=51 valign=top align=right>
+<b>11:40</b>
+</td>
+
+<td width=425 valign=top>
+<i>Terrorism Response Training in Scheme</i>.<br>
+Eric Kidd, Interactive Media Lab, Dartmouth Medical School. 
+<A HREF="abstracts.html#EricKidd"><i>Abstract</i></A>.
+<!--
+  <A HREF="slides/EricKidd.pdf"><i>Slides (pdf)</i></A>.
+-->
+</td>
+</tr>
+
+<!-- Sixth Talk -->
+<tr>
+<td width=51 valign=top align=right>
+<b>12:05</b>
+</td>
+
+<td width=425 valign=top>
+<i>Learning with F#</i>.<br>
+Phil Trelford, Microsoft Research, Applied Games Group.
+<A HREF="abstracts.html#PhilTrelford"><i>Abstract</i></A>.
+<A HREF="slides/PhilTrelford.ppt"><i>Slides (ppt)</i></A>,
+<A HREF="slides/2007/PhilTrelford.pptx"><i>(pptx)</i></A>.
+<a href="http://video.google.com/videoplay?docid=1327309458366802269&q=CUFP07"><i>Video</i></a>
+</td>
+</tr>
+
+<!-- Lunch -->
+<tr>
+<td width=51 valign=top align=right>
+<b>12:30</b>
+</td>
+
+<td width=425 valign=top>
+<b>L U N C H</b>
+</td>
+</tr>
+
+<!-- Seventh talk -->
+<tr>
+<td width=51 valign=top align=right>
+<b>2:00</b>
+</td>
+
+<td width=425 valign=top>
+<i>Productivity Gains with Erlang</i>. <br>
+Jan Henry Nystr&ouml;m, <a href="http://www.erlang-consulting.com" target="speaker">Erlang Training and Consulting Ltd.</a>
+<A HREF="abstracts.html#JanNystrom"><i>Abstract</i></A>.
+<A HREF="slides/JanNystrom.ppt"><i>Slides (ppt)</i></A>.
+<a href="http://video.google.com/videoplay?docid=-2737139230081384244&q=CUFP07"><i>Video</i></a>
+</td>
+</tr>
+
+<!-- Eighth talk -->
+<tr>
+<td width=51 valign=top align=right>
+<b>2:25</b>
+</td>
+
+<td width=425 valign=top>
+<i>An OCaml-based Network Services Platform</i>. <br>
+Chris Waterson, Liveops. 
+<A HREF="abstracts.html#ChrisWaterson"><i>Abstract</i></A>.
+<A HREF="slides/ChrisWaterson.ppt"><i>Slides (ppt)</i></A>.
+<a href="http://portal.acm.org/ft_gateway.cfm?id=1362711&type=mov&coll=ACM&dl=ACM&CFID=16603487&CFTOKEN=68446686"><i>Video</i></a></td>
+</tr>
+
+<!-- Ninth talk -->
+<tr>
+<td width=51 valign=top align=right>
+<b>2:50</b>
+</td>
+
+<td width=425 valign=top>
+<i>Using Functional Techniques to Program a Network Processor</i>. <br>
+Lal George. 
+<A HREF="abstracts.html#LalGeorge"><i>Abstract</i></A>.
+<a href="http://video.google.com/videoplay?docid=-1262074972589145270&q=CUFP07"><i>Video</i></a>
+<!--
+   <A HREF="slides/LalGeorge.pdf" target="speaker"><i>Slides (pdf)</i></A>.
+-->
+</td>
+</tr>
+
+<!-- Afternoon Tea -->
+<tr>
+<td width=51 valign=top align=right>
+<b>3:15</b>
+</td>
+
+<td width=425 valign=top>
+<b>B R E A K</b>
+</td>
+</tr>
+
+<!-- Tenth talk -->
+<tr>
+<td width=51 valign=top align=right>
+<b>3:45</b>
+</td>
+
+<td width=425 valign=top>
+<i>Impediments to Wide-Spread Adoption of Functional Languages</i>.<br>
+Noel Welsh, Untyped.
+<A HREF="abstracts.html#NoelWelsh"><i>Abstract</i></A>.
+<A HREF="slides/NoelWelsh.tar.gz"><i>Slides (PLT Slideshow)</i></A>,
+<A HREF="slides/NoelWelsh.pdf" target="speaker"><i>(pdf)</i></A>
+<a href="http://portal.acm.org/ft_gateway.cfm?id=1362713&type=mov&coll=ACM&dl=ACM&CFID=16603487&CFTOKEN=68446686"><i>Video</i></a>.
+</td>
+</tr>
+
+<!-- Eleventh talk -->
+<tr>
+<td width=51 valign=top align=right>
+<b>4:10</b>
+</td>
+
+<td width=425 valign=top>
+<i>Functional Programming in Communications Security</i>. <br>
+Ville Laurikari, SSH Communications Security.
+<A HREF="abstracts.html#VilleLaurikari"><i>Abstract</i></A>.
+</td>
+</tr>
+
+<!-- Twelfth talk -->
+<tr>
+<td width=51 valign=top align=right>
+<b>4:35</b>
+</td>
+
+<td width=425 valign=top>
+<i>Cross-Domain DAV Server</i>. <br>
+John Launchbury, Galois. 
+<A HREF="abstracts.html#JohnLaunchbury"><i>Abstract</i></A>.
+<A HREF="slides/JohnLaunchbury.pdf" target="speaker"><i>Slides (pdf)</i></A>.
+<a href="http://video.google.com/videoplay?docid=5328249006100259083&q=CUFP07"><i>Video</i></a>.
+</td>
+</tr>
+
+<!-- Wrap-up -->
+<tr>
+<td width=51 valign=top align=right>
+<b>5:00</b>
+</td>
+
+<td width=425 valign=top>
+<i>Discussion</i>.
+Chaired by Don Syme.
+</td>
+</tr>
+
+</table>
+
+
+<HR width=80%>
+
+<!--
+<P>
+<A name=""></A>
+<B></B>
+<BR>
+<B>Speaker: </B><EM></EM>
+<BR>
+<B>Abstract:</B>
+<BR>
+
+<BR>
+-->
+
+<!-- ----------------------------------------------------------------------
+  -- Closing up
+  -->
+
+<EM>
+October 4th 2007
+</EM>
+
+
+
+
+     </td>
+      <td class="side">&nbsp;</td>
+    </tr>
+    <tr>
+      <td class="corner"><img src="../images/textBodyBL.gif"></td>
+      <td class="solid"></td>
+      <td class="corner"><img src="../images/textBodyBR.gif"></td>
+    </tr>
+  </table>
+
+
+</BODY>
+</HTML>
+
+<!-- ----------------------------------------------------------------------
+  -- The end.
+  -->

@@ -1,0 +1,664 @@
+<!-- ----------------------------------------------------------------------
+  -- CUFP 2007 Abstracts
+  -- ----------------------------------------------------------------------
+  -->
+
+<!-- Header -->
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+  <TITLE>
+    Commercial Users of Functional Programming 2007 Program
+  </TITLE>
+
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>John Launchbury</o:Author>
+  <o:Template>Normal</o:Template>
+  <o:LastAuthor>John Launchbury</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>0</o:TotalTime>
+  <o:LastPrinted>2004-03-04T18:34:00Z</o:LastPrinted>
+  <o:Created>2004-09-09T23:08:00Z</o:Created>
+  <o:LastSaved>2004-09-09T23:08:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>338</o:Words>
+  <o:Characters>1927</o:Characters>
+  <o:Company>Galois Connections</o:Company>
+  <o:Lines>16</o:Lines>
+  <o:Paragraphs>3</o:Paragraphs>
+  <o:CharactersWithSpaces>2366</o:CharactersWithSpaces>
+  <o:Version>10.260</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:DisplayHorizontalDrawingGridEvery>0</w:DisplayHorizontalDrawingGridEvery>
+  <w:DisplayVerticalDrawingGridEvery>0</w:DisplayVerticalDrawingGridEvery>
+  <w:UseMarginsForDrawingGridOrigin/>
+ </w:WordDocument>
+</xml><![endif]-->
+<style  type="text/css">
+<!--
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:Times;}
+h1
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	font-size:16.0pt;
+	font-family:Helvetica;
+	mso-font-kerning:16.0pt;}
+h2
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:2;
+	font-size:14.0pt;
+	font-family:Helvetica;
+	font-style:italic;}
+h3
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:3;
+	font-size:13.0pt;
+	font-family:Helvetica;}
+a:link, span.MsoHyperlink
+	{color:green;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:green;
+	text-decoration:underline;
+	text-underline:single;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:.5in 63.0pt 45.0pt 63.0pt;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+@list l0
+	{mso-list-id:12850081;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1750415018 66569 197641 328713 66569 197641 328713 66569 197641 328713;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        color:  black;
+        background-color: white;
+      }
+      table.main  { 
+        width: 95%;
+        border: 0;
+        border-spacing: 0;
+        margin: 0 0 0 0;
+        padding: 1em 1em 1em 5%;
+        background-color: white;
+      }
+      table.main td.solid { 
+        border: 0;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        background-color: #EEEEEE;
+      }
+      table.main td.corner { 
+        width: 23px;
+        height: 23px;
+        border: 0;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        background-color: white;
+      }
+      table.main td.corner img { 
+        width: 23px;
+        height: 23px;
+        border: 0;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+      }
+      table.main td.side { 
+        width: 23px;
+        border: 0;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        background-color: #EEEEEE;
+      }
+      table.speakers {
+        border: 0;
+        border-spacing: 0;
+        margin: 0 0 0 0;
+        padding: 1em 1em 0 0;
+        background-color: #EEEEEE;
+      }
+      table.speakers td.name a {
+        text-decoration: none;
+        font-weight: bold;
+        color:  #006331;
+        margin: 0 0 0 2ex;
+      }
+
+      table.speakers td.inst {
+      }
+      table.speakers td.topic {
+        font-style: italic;
+        font-weight: 200;
+        padding: 0 0 1.5ex 0;
+      }
+      table.speakers td.topic a {
+        text-decoration: none;
+        font-weight: 200;
+        color:  #006331;
+      }
+      p.heading {
+        text-align:  center;
+        font-weight: bold;
+        font-size: larger;
+        color:  #000000;
+      }
+      p.copyright {
+        text-align: center;
+        font-size: x-small;
+        color: #000066;
+      }
+
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1027">
+  <o:colormru v:ext="edit" colors="#d2e6ff,#e0e0e0"/>
+  <o:colormenu v:ext="edit" fillcolor="#e0e0e0"/>
+ </o:shapedefaults></xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body bgcolor="#FFFFFF" lang=EN-US link=green vlink=green style='tab-interval:.5in'>
+  <table class="main">
+    <tr>
+      <td class="corner"><img src="../images/smallUL.gif"></td>
+      <td class="solid"></td>
+      <td class="corner"><img src="../images/smallUR.gif"></td>
+    </tr>
+   <tr>
+      <td class="side">&nbsp;</td>
+      <td class="solid" align="left">
+
+<H1 align="center"><A HREF="main.html">CUFP 2007</a> Abstracts</H1>
+
+<P>
+<hr>
+<!-- begin abstracts -->
+<P>
+<A name="XavierLeroy"></A>
+
+<B>Invited Talk.  <br>
+Industrial uses of Caml: examples and lessons learned from the smart card industry</B>
+<BR>
+<B>Speaker: </B><EM>Xavier Leroy, INRIA</EM>
+<BR>
+<B>Abstract:</B><br>
+The first part of this talk will show some examples of uses of Caml in
+industrial contexts, especially at companies that are part of the Caml
+consortium.  The second part discusses my personal experience at the
+Trusted Logic start-up company, developing high-security software
+components for smart cards.  While technological limitations prevent
+running functional languages on such low-resource systems, the
+development and certification of smart card software present a number
+of challenges where functional programming can help.
+<BR>
+
+<HR width=80%>
+
+<P>
+<A name="UlfWiger "></A>
+<B>
+The Way it Ought to Work... and Sometimes Does
+</B>
+<BR>
+<B>Speaker: </B><EM>Ulf Wiger, Ericsson</EM>
+<BR>
+<B>Abstract:</B>
+<BR>
+The telecommunications world is now moving rapidly towards SIP-based telephony and multimedia. The vision is to merge mobile and fixed networks into one coherent multimedia network. Ericsson has been a pioneer in SIP technology, and the first Erlang-based SIP stack was presented in 1999. A fortunate turn of events allowed us to revive the early SIP experiments, rewrite the software and experiment to find an optimal architecture, and later verify our implementation with great success in international interop events. We believe this to be a superb example of how a small team of experts, armed with advanced programming tools, can see their ideas through, with prototypes, field trials, and later large-scale industrial development.
+<p>
+
+<BR>
+
+<HR width=80%>
+
+<P>
+<A name="CyrilSchmidt"></A>
+<B>The default case in Haskell: Counterparty credit risk calculation at ABN AMRO</B>
+<BR>
+<B>Speaker: </B><EM>Cyril Schmidt, ABN AMRO</EM>
+<BR>
+<B>Abstract:</B>
+<BR>
+ABN AMRO is an international bank headquartered in Amsterdam. For its 
+investment banking activities it needs to measure the counterparty risk on 
+portfolios of financial derivatives.
+We will describe the building of a Monte-Carlo simulation engine for 
+calculating the bank's exposure to risks of losses if the counterparty 
+defaults (e.g., in case of bankruptcy). The engine can be used both as an 
+interactive tool for quantitative analysts and as a batch processor for 
+calculating exposures of the bank?s financial portfolios.
+We will review Haskell's strong and weak points for this task, both from 
+technical and business point of view, and discuss some of the lessons we 
+learned.
+
+
+<HR width=80%>
+
+<P>
+<A name="AnwarGhuloum"></A>
+<B>Nested Data Parallel Programming at Intel</B>
+<BR>
+<B>Speaker: </B><EM>Anwar Ghuloum, Intel</EM>
+<BR>
+<B>Abstract:</B><br>
+I will discuss the design of Ct, an API for nested data parallel
+programming in C++. Ct uses meta-programming and functional language
+ideas to essentially embed a pure functional programming language in
+impure and unsafe languages, like C++. I will
+discuss the evolution of the design into functional programming ideas,
+how this was received in the corporate world, and how we plan to
+proliferate the technology in the next year.
+<p>
+Ct is a deterministic parallel programming model integrating the
+nested data parallelism ideas of Blelloch and bulk synchronous
+processing ideas of Valiant. That is, data races are not possible in
+Ct. Moreover, performance in Ct is relatively predictable. At its
+inception, Ct was conceived as a simple library implementation behind
+C++ template magic. However, performance issues quickly forced us to
+consider some form of compilation. Using template programming was
+highly undesirable for this purpose as it would have been difficult
+and overly specific to C++ idiosyncracies. Moreover, once compilation
+for performance was considered, we began to consider a language
+semantics that would enable powerful optimizations like calculational
+fusion, synchronization barrier elimination, and so on. The end result
+of this deliberation is an API that exposes a value-oriented, purely
+functional vector processing language. Additional benefits of this
+approach are numerous, including the important ability to co-exist
+within legacy threading programming models (because of the data
+isolation inherent in the model). We will show how the model applies
+to a wide range of important (at least by cycle count)
+applications. Ct targets both shipping multi-core architectures from
+Intel as well as future announced architectures.
+<p>
+The corporate reception to this approach as (pleasantly) surprised
+us. In the desktop and high-performance computing space, where C, C++,
+Java, and Fortran are the only programming models people talk about,
+we have made serious inroads into advocating advanced programming
+language technologies. The desperate need for productive, scalable,
+and safe programming languages for multi-core architectures has
+provided an opening for functional, type-safe languages. We will
+discuss the struggles of multi-core manufacturers (i.e. Intel) and
+their software vendors that have created this opening.
+<p>
+For Intel, Ct heralds its first serious effort to champion a
+technology that <em>borrows</em> functional programming technologies
+from the research community. Though it is a compromise that
+accommodates the pure in the impure and safe in the unsafe, this is an
+important opportunity to demonstrate the power of functional
+programming to the unconverted. We plan to share the technology
+selectively with partners and collaborators, and will have a fully
+functional and parallelizing implementation by year's end.  At CUFP,
+we will be prepared to discuss our long term plans in detail.  <BR>
+<BR>
+
+<HR width=80%>
+
+<P>
+<A name="EricKidd"></A>
+<B>Terrorism Response Training in Scheme</B>
+<BR>
+<B>Speaker: </B><EM>Eric Kidd, Interactive Media Lab, Dartmouth Medical School</EM>
+<BR>
+<B>Abstract:</B><br>
+The Interactive Media Lab (IML) builds shrink-wrapped educational
+software for medical professionals and first responders. We have teams
+focusing on media production, script-level authoring, and low-level
+engine development.
+Our most recent project is <a
+href="http://iml.dartmouth.edu/education/pcpt/VTRA"  target="speakers">Virtual Terrorism
+Response Academy</a>.  VTRA 
+uses 3D simulations to teach students about radiological, chemical and
+biological weapons. Our software is now undergoing trials at
+government training centers and metropolitan police departments.
+VTRA consists of approximately 60 KLOC of Scheme, and a similar amount
+of C++. All of our product-specific code is in Scheme, and we make
+extensive use of macros and domain-specific languages.
+<p>
+From 1987 to 2002, we used a C++ multimedia engine scripted in 5L, the
+"Lisp-Like Learning Lab Language."  This was Lisp-like in name only;
+it used a prefix syntax, but didn't even support looping, recursion,
+or data structures.  We needed something better for our next project!
+We ultimately chose to use Scheme, because (1) it was a well-known,
+general-purpose programming language, and (2) we could customize it
+extensively using macros.
+Migrating to Scheme proved tricky, because we needed to keep releasing
+products while we were building the new Scheme environment. We began
+by carefully refactoring our legacy codebase, allowing us to maintain
+our old and new interpreters in parallel. We then rewrote the front-end in
+a single, 8-day hacking session.
+But even once the 
+<a href="http://iml.dartmouth.edu/tamale/"  target="speakers">Scheme environment</a> was ready, few of our employees
+wanted to use it. In an effort to make Scheme programming more
+accessible, we invested significant effort in building an IDE. Today,
+our environment is much more popular--a third of our employees use it
+on a regular basis, including several professional artists.
+<p>
+After migrating to Scheme, we added support for 
+<a
+href="http://iml.dartmouth.edu/education/pcpt/VTRA/tour/videos/05_startsim.mp4"  target="speakers">3D
+simulations</a>. And 
+Scheme proved its worth almost immediately: We faced several hard
+technical problems, which we solved by building domain-specific
+languages using Scheme macros.
+First, we needed to simulate radiation meters. For this, we used a reactive
+programming language to implement a Model-View-Controller system.
+Second, we needed to guide students through the simulation and
+make teaching points. For this, we relied on a "goal system," which tracks
+what students need to accomplish and provides hints along the way.
+In both these cases, Scheme proved to be a significant competitive
+advantage. Not all problems have clean imperative solutions. A
+language which supports functional programming, macros, and
+combinator libraries allows us to do things our competitors can't.
+<p>
+This summer, we'll be releasing our engine as open source, and
+starting work on a GUI editor. We welcome users and developers!
+<BR>
+<BR>
+
+<HR width=80%>
+<P>
+<A name="PhilTrelford"></A>
+<B>Learning with F#</B>
+<BR>
+<B>Speaker: </B><EM>Phil Trelford, Microsoft Research, Applied Games Group</EM>
+<BR>
+<B>Abstract:</B>
+<BR>
+In this talk, I will describe how the Applied Games Group at Microsoft
+Research Cambridge uses F#. This group consists of 7 people and specialize in
+the application of statistical machine learning, especailly ranking
+problems. The ranking systems they have developed are used by the XBox
+Live team to do server-side analysis of game logs, and they recently
+entered an internal competition to improve "click-through" prediction
+rates on Microsoft adCenter, a multi-million dollar industry for the
+company. The amount of data analyzed by the tools is astounding:
+e.g. 3TB in one case, with programs running continuously over 4 weeks
+of training data and occupying all the physical memory on the 64-bit
+16GB machines we use.
+<p>
+F# plays a crucial role in helping the group process this data efficiently
+and develop smart algorithms that extract essential features from the
+data and represent the information using the latest statistical techniques
+called "factor graphs". Our use of F# in conjunction with SQL Server
+2005 is especially interesting: we use novel compilation techniques
+to express the primary schema in F# and then use SQL Server as a
+data slave.
+
+<BR>
+
+<HR width=80%>
+<P>
+<A name="JanNystrom"></A>
+<B>Productivity Gains with Erlang</B>
+<BR>
+<B>Speaker: </B><EM>Jan Henry Nystrom, <a href="http://www.erlang-consulting.com" target="speaker">Erlang Training and Consulting Ltd.</a></EM>
+<BR>
+<B>Abstract:</B>
+<BR>
+Currently most distributed telecoms software is engineered using low-
+and mid-level distributed technologies, but there is a drive to use
+high-level distribution. This talk reports the first systematic
+comparison of a high-level distributed programming language in the
+context of substantial commercial products. 
+<p>
+The research clearly demonstrates that Erlang is not only a viable,
+but also a compelling choice when dealing with high availability
+system. This is due to the fact that it comparatively easy to
+construct systems that are 
+<ul>
+<li>Resilient: sustaining throughput at extreme loads and automatically recovering when load drops.
+<li>Fault tolerant: remaining available despite repeated and multiple failures.
+<li>Dynamically reconfigurable: with throughput scaling, near-linearly,
+when resources are added or removed.
+</ul>
+<p>
+But most importantly these systems can be delivered at a much higher
+productivity and with more maintainable deployed systems than current
+technology. This is attributed to the language features such as 
+automatic memory and process management and high-level communication. 
+Furthermore Erlang interoperates at low cost with conventional
+technologies, allowing incremental reengineering of large distributed
+systems.
+<BR>
+
+
+<HR width=80%>
+<P>
+<A name="ChrisWaterson"></A>
+<B>An OCaml-based Network Services Platform</B>
+<BR>
+<B>Speaker: </B><EM>Chris Waterson, Liveops</EM>
+<BR>
+<B>Abstract:</B>
+<BR>
+At Liveops, we've developed a robust network services platform that
+combines the scalability of event-based I/O with the simplicity of
+thread-based programming. We've done this using functional programming
+techniques; namely, by using continuation passing monads to
+encapsulate computation state and hide the complexity of the
+non-blocking I/O layer from the application programmer. Application
+code is written in a "naive threading"-style using primitives that
+simulate blocking I/O operations.
+<p>
+This network platform serves as the basis for one of the most critical
+applications in our business: agent scheduling, and has proven to be
+easy to maintain and extremely scalable. Using commodity server
+hardware, we are able to support thousands of persistent SSL
+connections on a single dual-core Pentium-class server, and handle
+tens of thousands of transactions per minute.
+<p>
+The application and platform are implemented in OCaml.
+<p>
+This talk will briefly describe the application domain, discuss the
+specifics of the monadic I/O library we've built, and describe some of
+the issues involved. Our hope is that by the time that the conference
+arrives, the library will be released as open-source software.
+<p>
+Although developed independently, this work is the same vein as (and,
+in some ways, validates) Peng Li and Steve Zdancewic's "A
+Language-based Approach to Unifying Events and Threads", which is
+appearing in the ACM SIGPLAN Conference on Programming Language Design
+and Implementation (PLDI) in June 2007.  <BR>
+
+<HR width=80%>
+<P>
+<A name="LalGeorge"></A>
+<B>Using Functional Techniques to Program a Network Processor</B>
+<BR>
+<B>Speaker: </B><EM>Lal George</EM>
+<BR>
+<B>Abstract:</B>
+<BR>
+I will describe technology we built at Network Speed Technologies to
+program the Intel IXP network processor - a multi-core,
+multi-threaded, high performance network device.
+<p>
+Ideas from functional programming, and language design were key to
+programming this device. For example, 650 lines of Intel C for the IXP
+together with embedded assembly are required to just update the TTL
+and checksum fields of an IPv4 header; in our functional language, it
+is less than 40 lines!
+<p>
+The functional semantics and novel compilation technology enables us
+to demonstrably out-perform hand coded assembly written by experts - a
+remarkable accomplishment by itself, and even more so in the embedded
+space. The critical components of the  compilation technology is a big
+part of the puzzle, but are not directly FP related.
+<p>
+The language and technology have been a phenomenal success, and easily
+surpass conventional approaches. The ease of learning, the
+dramatically lower cost, and superior performance  make this the
+'right' choice for deploying these devices. However, there are hard
+lessons learned from using FPL in the real world ...
+<p>
+
+<HR width=80%>
+<P>
+<A name="NoelWelsh"></A>
+<B>Impediments to Wide-Spread Adoption of Functional Languages</B>
+<BR>
+<B>Speaker: </B><EM>Noel Welsh, Untyped</EM>
+<BR>
+<B>Abstract:</B>
+<BR>
+If functional languages are so great, why does virtually no-one use
+them?  More to the point, why have relatively new languages like PHP,
+Python, and Ruby prospered while functional languages have failed to
+make inroads in their long and glorious history?  I believe the
+answers are largely cultural, and indeed the academic culture of
+functional languages is both their greatest strength and biggest
+barrier to adoption.  I'll present a simple model of language
+adoption, and show specific instances where functional languages fail
+to support it.  I'll also make concrete suggestions for how functional
+language communities can improve, while still retaining their
+distinctive strengths.
+
+<HR width=80%>
+<P>
+<A name="VilleLaurikari"></A>
+<B>Functional Programming in Communications Security</B>
+<BR>
+<B>Speaker: </B><EM>Ville Laurikari, SSH Communications Security</EM>
+<BR>
+<B>Abstract:</B>
+<BR>
+At SSH Communications Security, we've employed functional programming
+for a long time in some of our projects.  Over the years, we've
+shipped a number of products written mostly in Scheme, and are about
+to ship some software which is in part written in Standard ML.  We
+have also written several pieces of software for internal use in
+Haskell, Standard ML, Scheme, and probably others as well.
+<p>
+In this talk, I will describe some useful insights on how these
+languages have worked for us in developing security software.  
+<p>
+We had some successes: we've been able to build and ship fairly large
+software systems rather quickly and with good confidence in certain
+aspects of their security. 
+<p>
+We've also experienced some failures.  Using functional programming
+doesn't protect against bad design.  Implementations of functional
+languages are sometimes slow.  The user base of many languages is
+small, and there aren't a whole lot of programmers on the market who
+can program well in, for example, Scheme.
+<p>
+Over the past few years, we've also seen some of the social phenomena
+related to functional programming; how people feel about it, why they
+believe it works/doesn't work, and why they are (not) interested in
+doing it.  
+<BR>
+
+<HR width=80%>
+<P>
+<A name="JohnLaunchbury"></A>
+<B>Cross-Domain DAV Server</B>
+<BR>
+<B>Speaker: </B><EM>John Launchbury, Galois</EM>
+<BR>
+<B>Abstract:</B>
+<BR>
+At Galois, we use Haskell extensively in a carefully architected 
+DAV server. Our clients need very strong separation between 
+separate network access points. Haskell gave us critical 
+flexibility to provide major pieces of functionality that enable 
+the separation, including the implementation of a completely 
+new file system. Interestingly, however, we implemented 
+the single most critical component in C ! In this talk we will 
+discuss our experiences, and draw lessons regarding the 
+appropriateness -- or otherwise -- of functional languages for 
+certain security critical tasks.
+<BR>
+
+<HR width=80%>
+
+<!--
+<P>
+<A name=""></A>
+<B></B>
+<BR>
+<B>Speaker: </B><EM></EM>
+<BR>
+<B>Abstract:</B>
+<BR>
+
+<BR>
+-->
+
+<!-- ----------------------------------------------------------------------
+  -- Closing up
+  -->
+
+<EM>
+October 4th 2007
+</EM>
+
+
+
+
+     </td>
+      <td class="side">&nbsp;</td>
+    </tr>
+    <tr>
+      <td class="corner"><img src="../images/textBodyBL.gif"></td>
+      <td class="solid"></td>
+      <td class="corner"><img src="../images/textBodyBR.gif"></td>
+    </tr>
+  </table>
+
+
+</BODY>
+</HTML>
+
+<!-- ----------------------------------------------------------------------
+  -- The end.
+  -->

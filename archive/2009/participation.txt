@@ -1,0 +1,87 @@
+  Commercial Users of Functional Programming Workshop (CUFP) 2009
+
+           Functional Programming As a Means, Not an End
+
+                       Call for Participation
+
+                        Sponsored by SIGPLAN
+                     Co-located with ICFP 2009
+     _________________________________________________________
+
+                          4 September 2009
+                        Edinburgh, Scotland
+
+                      Registration is through
+            http://www.regmaster.com/conf/icfp2009.html
+     _________________________________________________________
+
+   Functional languages have been under academic development 
+   for over 25 years, and remain fertile ground for programming
+   language research. Recently, however, developers in industrial, 
+   governmental, and open source projects have begun to use 
+   functional programming successfully in practical applications. 
+   In these settings, functional programming has often provided 
+   dramatic leverage, including whole new ways of thinking about 
+   the original problem.
+
+   The goal of the CUFP workshop is to act as a voice for these
+   users of functional programming. The workshop supports the
+   increasing viability of functional programming in the
+   commercial, governmental, and open-source space by providing a
+   forum for professionals to share their experiences and ideas,
+   whether those ideas are related to business, management, or
+   engineering. The workshop is also designed to enable the
+   formation and reinforcement of relationships that further
+   the commercial use of functional programming. Providing user
+   feedback to language designers and implementors is not a
+   primary goal of the workshop, though it will be welcome if it
+   occurs.
+
+Program
+
+   CUFP 2009 will last a full day and feature a discussion
+   session and the following presentations:
+
+   Bryan O'Sullivan
+          Keynote: Real world Haskell
+
+   Lee Momtahan (EDF Trading)
+          Implementing a Domain-Specific Language for Derivative
+          Pricing with Scala
+
+   Bhasker Kode (hover.in)
+          Erlang at hover.in
+
+   Jefferson Heard, (Renaissance Computing Institute)
+          Teleconferencing over High-res Maps with Haskell
+
+   Alex Peake (TFC) and Adam Granicz (Intellifactory)
+          The First Substantial Line of Business Application in F#
+
+   Christopher Piro and Eugene Letuchy (Facebook)
+          Functional Programming at Facebook
+
+   Lee Benfield (Barclays Capital)
+          FMD - Functional development in Excel
+
+   Warren Harris (Metaweb)
+          Functional Programming at Freebase
+
+   Mark Wong-VanHaren (Glyde)
+          Clear & Simple: Composing a Marketplace
+
+   Duncan Coutts (Well-Typed)
+          Birth of the Industrial Haskell Group
+
+   There will be no published proceedings, as the meeting is
+   intended to be more a discussion forum than a technical
+   interchange.
+
+   See http://cufp.galois.com for more information, including
+   presentation abstracts and the most recent schedule
+   information.
+   
+   This will be the sixth CUFP; see CUFP 2004 CUFP 2005, CUFP
+   2006, CUFP 2007 and CUFP 2008 for information about the
+   earlier meetings, including reports from attendees and video
+   of the most recent talks.

@@ -1,0 +1,86 @@
+  Commercial Users of Functional Programming Workshop (CUFP) 2009
+
+           Functional Programming As a Means, Not an End
+
+                       Call for Presentations
+
+                        Sponsored by SIGPLAN
+                     Co-located with ICFP 2009
+
+               Edinburgh, Scotland, 4 September 2009
+     _________________________________________________________
+
+               Presentation proposals due 15 May 2009
+
+               http://cufp.galois.com/2009/call.html
+     _________________________________________________________
+
+   Functional languages have been under academic development for
+   over 25 years, and remain fertile ground for programming
+   language research. Recently, however, developers in industrial,
+   governmental, and open-source projects have begun to use 
+   functional programming successfully in practical applications. 
+   In these settings, functional programming has often provided 
+   dramatic leverage, including whole new ways of thinking about 
+   the original problem.
+
+   The goal of the CUFP workshop is to act as a voice for these
+   users of functional programming. The workshop supports the
+   increasing viability of functional programming in the
+   commercial, governmental, and open-source space by providing a
+   forum for professionals to share their experiences and ideas,
+   whether those ideas are related to business, management, or
+   engineering. The workshop is also designed to enable the
+   formation and reinforcement of relationships that further the
+   commercial use of functional programming. Providing user
+   feedback to language designers and implementors is not a
+   primary goal of the workshop, though it will be welcome if it
+   occurs.
+
+Speaking at CUFP
+
+   If you use functional programming as a means, rather than as
+   an end, we invite you to offer to give a talk at the workshop.
+   Alternatively, if you know someone who would give a good talk,
+   please nominate them!
+
+   Talks are typically 25 minutes long, but can be shorter. They
+   aim to inform participants about how functional programming
+   played out in real-world applications, focusing especially on
+   the re-usable lessons learned, or insights gained. Your talk
+   does not need to be highly technical; for this audience,
+   reflections on the commercial, management, or software
+   engineering aspects are, if anything, more important. You do
+   not need to submit a paper! Talks on the practical application
+   of functional programming with a primarily technical focus may
+   also be appropriate for the adjacent DEFUN 2009 event.
+
+   If you are interested in offering a talk, or nominating someone 
+   to do so, send an e-mail to francesco(at)erlang-consulting(dot)com
+   or  jim(dot)d(dot)grundy(at)intel(dot)com by 15 May 2009 with a
+   short description of what you'd like to talk about or what you
+   think your nominee should give a talk about. Such descriptions
+   should be about one page long.
+
+Program Plans
+
+   CUFP 2009 will last a full day and feature a keynote presentation 
+   from Bryan O'Sullivan, co-author of Real World Haskell. The program 
+   will also include a mix of presentations and discussion sessions. 
+   Topics will range over a wide area, including:
+     * Case studies of successful and unsuccessful uses of 
+       functional programming;
+     * Business opportunities and risks from using functional languages;
+     * Enablers for functional language use in a commercial setting;
+     * Barriers to the adoption of functional languages, and
+     * Mitigation strategies for overcoming limitations of 
+       functional programming.
+
+   There will be no published proceedings, as the meeting is intended 
+   to be more a discussion forum than a technical interchange.
+   
+   This will be the sixth CUFP, for more information - including
+   reports from attendees of previous events and video of recent
+   talks - see the workshop web site: http://cufp.galois.com/
+         _________________________________________________
+

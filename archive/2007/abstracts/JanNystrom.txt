@@ -1,0 +1,29 @@
+Jan Henry Nystrom <jan@erlang-consulting.com>
+Training Manager @ Erlang Training and Consulting Ltd.
+www.erlang-consulting.com
+ABSTRACT 
+
+Currently most distributed telecoms software is engineered using low-
+and mid-level distributed technologies, but there is a drive to use
+high-level distribution. This talk reports the first systematic
+comparison of a high-level distributed programming language in the
+context of substantial commercial products. 
+
+The research clearly demonstrates that Erlang is not only a viable,
+but also a compelling choice when dealing with high availability
+system. This is due to the fact that it comparatively easy to
+construct systems that are 
+  - Resilient: sustaining throughput at extreme loads and
+  automatically recovering when load drops.
+  - Fault tolerant: remaining available despite repeated and
+    multiple; failures.
+  - Dynamically reconfigurable: with throughput
+    scaling, near-linearly, when resources are added or removed. 
+
+But most importantly these systems can be delivered at a much higher
+productivity and with more maintainable deployed systems than current
+technology. This is attributed to the language features such as 
+automatic memory and process management and high-level communication. 
+Furthermore Erlang interoperates at low cost with conventional
+technologies, allowing incremental reengineering of large distributed
+systems.

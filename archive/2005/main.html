@@ -1,0 +1,420 @@
+<html>
+
+<head>
+<meta name=Title content="Commercial Users of Functional Programming 2005">
+<meta name=Keywords content="Functional Programming Users Workshop CUFP">
+<title>Commercial Users of Functional Programming Workshop 2005</title>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 10">
+<meta name=Originator content="Microsoft Word 10">
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>John Launchbury</o:Author>
+  <o:Template>Normal</o:Template>
+  <o:LastAuthor>John Launchbury</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>0</o:TotalTime>
+  <o:LastPrinted>2004-03-04T18:34:00Z</o:LastPrinted>
+  <o:Created>2004-09-09T23:08:00Z</o:Created>
+  <o:LastSaved>2004-09-09T23:08:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>338</o:Words>
+  <o:Characters>1927</o:Characters>
+  <o:Company>Galois Connections</o:Company>
+  <o:Lines>16</o:Lines>
+  <o:Paragraphs>3</o:Paragraphs>
+  <o:CharactersWithSpaces>2366</o:CharactersWithSpaces>
+  <o:Version>10.260</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:DisplayHorizontalDrawingGridEvery>0</w:DisplayHorizontalDrawingGridEvery>
+  <w:DisplayVerticalDrawingGridEvery>0</w:DisplayVerticalDrawingGridEvery>
+  <w:UseMarginsForDrawingGridOrigin/>
+ </w:WordDocument>
+</xml><![endif]-->
+<style  type="text/css">
+<!--
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:Times;}
+h1
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	font-size:16.0pt;
+	font-family:Helvetica;
+	mso-font-kerning:16.0pt;}
+h2
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:2;
+	font-size:14.0pt;
+	font-family:Helvetica;
+	font-style:italic;}
+h3
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:3;
+	font-size:13.0pt;
+	font-family:Helvetica;}
+a:link, span.MsoHyperlink
+	{color:green;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:green;
+	text-decoration:underline;
+	text-underline:single;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:.5in 63.0pt 45.0pt 63.0pt;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+@list l0
+	{mso-list-id:12850081;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1750415018 66569 197641 328713 66569 197641 328713 66569 197641 328713;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        color:  black;
+        background-color: white;
+      }
+      table.main  { 
+        width: 95%;
+        border: 0;
+        border-spacing: 0;
+        margin: 0 0 0 0;
+        padding: 1em 1em 1em 5%;
+        background-color: white;
+      }
+      table.main td.solid { 
+        border: 0;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        background-color: #EEEEEE;
+      }
+      table.main td.corner { 
+        width: 23px;
+        height: 23px;
+        border: 0;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        background-color: white;
+      }
+      table.main td.corner img { 
+        width: 23px;
+        height: 23px;
+        border: 0;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+      }
+      table.main td.side { 
+        width: 23px;
+        border: 0;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        background-color: #EEEEEE;
+      }
+      table.speakers {
+        border: 0;
+        border-spacing: 0;
+        margin: 0 0 0 0;
+        padding: 1em 1em 0 0;
+        background-color: #EEEEEE;
+      }
+      table.speakers td.name a {
+        text-decoration: none;
+        font-weight: bold;
+        color:  #006331;
+        margin: 0 0 0 2ex;
+      }
+
+      table.speakers td.inst {
+      }
+      table.speakers td.topic {
+        font-style: italic;
+        font-weight: 200;
+        padding: 0 0 1.5ex 0;
+      }
+      table.speakers td.topic a {
+        text-decoration: none;
+        font-weight: 200;
+        color:  #006331;
+      }
+      p.heading {
+        text-align:  center;
+        font-weight: bold;
+        font-size: larger;
+        color:  #000000;
+      }
+      p.copyright {
+        text-align: center;
+        font-size: x-small;
+        color: #000066;
+      }
+
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1027">
+  <o:colormru v:ext="edit" colors="#d2e6ff,#e0e0e0"/>
+  <o:colormenu v:ext="edit" fillcolor="#e0e0e0"/>
+ </o:shapedefaults></xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body bgcolor="#FFFFFF" lang=EN-US link=green vlink=green style='tab-interval:.5in'>
+  <table class="main">
+    <tr>
+      <td class="corner"><img src="../images/smallUL.gif"></td>
+      <td class="solid"></td>
+      <td class="corner"><img src="../images/smallUR.gif"></td>
+    </tr>
+   <tr>
+      <td class="side">&nbsp;</td>
+      <td class="solid" align="left">
+
+<h1 align=center style='text-align:center'>
+2005 Commercial Users of Functional Programming<br>
+(CUFP)<br>
+September 24, 2005<br>
+Co-located with <a href="http://www.brics.dk/~danvy/icfp05/" target="_blank">ICFP</a>
+</h1>
+
+<h2 align=center style='text-align:center'>
+Functional Programming As a <em>Means</em>, Not an <em>End</em>
+</h2>
+
+<HR width=80%>
+
+<P align=center>
+&nbsp;&nbsp; The workshop was held <strong>September 24, 2005</strong>.
+</P>
+
+<HR width=80%>
+
+<p>
+The goal of CUFP is to <strong>build a community for users of functional
+programming languages and technology</strong>, be they using functional
+languages in their professional lives, in an open source project (other than
+implementation of functional languages), as a hobby, or any combination
+thereof.
+</p>
+
+<p>
+In short: anyone who uses functional programming as a <strong>means</strong>,
+but not an <strong>end</strong>.
+</p>
+
+<p>
+Functional languages have been under academic development for over 25 years,
+and are still proving to be very fertile ground for programming language
+research.
+
+Consequently, most of the development focus of these languages is
+driven by academic and theoretical questions.
+
+More recently, however, functional languages have been very successfully used
+in commercial, industrial, open-source, and government settings, where their
+advantages have been able to be leveraged dramatically.
+</p>
+
+<p>
+It aims to help functional programming become increasingly viable as a
+technology for use in the commercial, industrial, and government space, by
+providing a forum for FP professionals to share their experiences and ideas,
+whether <strong>business</strong>, <strong>management</strong>, or
+<strong>engineering</strong>. 
+
+It also aims to enable the formation and cementing of <strong>relationships
+and alliances</strong> that further the commercial use of functional
+languages.
+
+Providing user feedback to language designers and implementers is not a
+primary goal of the workshop, though it will be welcome if it occurs.
+
+</p>
+
+<h3>Schedule</h3>
+
+<p>
+
+The meeting lasted a full day, with a mix of invited presentations and
+discussion sessions.
+
+</p>
+
+<p>
+
+In 2005, we had the following speakers:
+
+</p>
+
+<ul type=disc>
+
+ <li>
+ <strong>Atrijus Tang</strong>; talked about <a
+ href="http://www.pugscode.org/" target="_blank">PUGS</a>, a Perl6 implementation, written in
+ Haskell; <A HREF="slides/AtrijusTang.pdf">slides available (PDF)</A>.
+ </li>
+
+ <li>
+ <strong>Fabrice Le Fessant</strong>; talked about <a
+ href="http://www.nongnu.org/mldonkey/" target="_blank">MLDonkey</a>, a popular
+ multi-platform, multi-network P2P client written in OCaml.
+ </li>
+ 
+ <li>
+ <strong>Michael Sperber</strong>; talked about uses of Scheme in the banking
+ industry.
+ </li>
+
+ <li>
+ <strong>David Roundy</strong>; talked about <a
+ href="http://abridgegame.org/darcs/" target="_blank">darcs</a>, a popular and flexible
+ revision control system well-suited to highly distributed development,
+ written in Haskell; <A HREF="slides/DavidRoundy.pdf">slides available (PDF)</A>.
+ </li>
+
+ <li>
+ <strong>Jim Grundy</strong>; talked his experiences with functional
+ programming at Intel's Strategic CAD Labs.
+ </li>
+
+ <li>
+ <strong>Robert Boone</strong>; talked about his experiences at Freescale.
+ </li>
+
+ <li>
+ <strong>Jonathan Soebel</strong>; talked about lessons the FP community can
+ learn from the OMG's Model Driven Architecture (MDA) and its related
+ marketing efforts.
+ </li>
+
+ <li>
+ <strong>Francesco Cesarini</strong>; of <A HREF="http://www.erlang-consulting.com" target="_blank">Erlang Training and Consulting Ltd.</A>,
+ talked about his experiences using, teaching, and supporting the concurrent
+ functional language Erlang.
+ </li>
+
+</ul>
+
+<p>
+
+We also had two <em>working sessions</em>, where lively debate and
+brainstorming were the order of the day:
+
+<UL type=disc>
+
+  <li>
+  <strong>FP, Education, and Industry</strong>: industry folks complain that
+  there aren't enough FP folks being produced by schools, and educators
+  complain that students don't see any point in studying FP if there are no
+  jobs to be had. <em>How can we break this stalemate?</em> Simon Thompson of
+  <a href="http://www.cs.kent.ac.uk/people/staff/sjt/fdpe05/" target="_blank">Functional and
+  Declarative Programming in Education (FDPE05)</a> joined us, and
+  we debriefed at FDPE05.
+  </li>
+
+  <li>
+  <strong>Stimulating a CUFP Community</strong>: we'd like the buzz and
+  excitement surrounding CUFP to persist beyond the workshops. <em>What would
+  such a community look like?</em> <em>How do we make it happen?</em> The
+  session kicked off with two separate but complimentary starting points: a
+  proposed "Users of FP" community web site and a proposed "Haskell Consortium"
+  web site.
+  </li>
+
+</ul>
+
+<p>
+
+There was no published proceedings, as the meeting is intended to be more
+a discussion forum than a technical interchange.
+
+A full <A href="../2004/report.pdf">report</A> of
+2004's <A HREF="../2004/main.html">workshop</A> appeared in the
+Functional Programming column of the December 2004 issue of SIGPLAN
+Notices.  Simon Thompson kindly wrote up
+some <A HREF="report.pdf">notes</A> about his impressions of the 2005
+workshop.
+
+</p>
+
+<h3>Committee</h3>
+
+Mike Ashley. <i><tt>Mike.Ashley</tt></i> at <i><tt>sagian.com</tt></i>
+<br>
+
+Jim Grundy. <i><tt>Jim_Grundy</tt></i> at <i><tt>ichips.intel.com</tt></i>
+<br>
+
+Xavier Leroy. <i><tt>Xavier.Leroy</tt></i> at <i><tt>inria.fr</tt></i>
+<br>
+
+Simon Peyton Jones. <i><tt>simonpj</tt></i> at <i><tt>microsoft.com</tt></i>
+<br>
+
+Ulf Wiger. <i><tt>ulf.wiger</tt></i> at <i><tt>ericsson.com</tt></i>
+<br>
+
+Andy Moran. <i><tt>moran</tt></i> at <i><tt>galois.com</tt></i>
+<br>
+
+John Launchbury. <i><tt>john</tt></i> at <i><tt>galois.com</tt></i> (Chair)
+
+
+
+
+     </td>
+      <td class="side">&nbsp;</td>
+    </tr>
+    <tr>
+      <td class="corner"><img src="../images/textBodyBL.gif"></td>
+      <td class="solid"></td>
+      <td class="corner"><img src="../images/textBodyBR.gif"></td>
+    </tr>
+  </table>
+</body>
+</html>
+

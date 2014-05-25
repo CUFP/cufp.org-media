@@ -1,0 +1,18 @@
+
+
+Title:
+Industrial uses of Caml: examples and lessons learned from the smart
+card industry
+
+Speaker:
+Xavier Leroy, INRIA
+
+Abstract:
+The first part of this talk will show some examples of uses of Caml in
+industrial contexts, especially at companies that are part of the Caml
+consortium.  The second part discusses my personal experience at the
+Trusted Logic start-up company, developing high-security software
+components for smart cards.  While technological limitations prevent
+running functional languages on such low-resource systems, the
+development and certification of smart card software present a number
+of challenges where functional programming can help.

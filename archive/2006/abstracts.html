@@ -1,0 +1,484 @@
+<!-- ----------------------------------------------------------------------
+  -- CUFP 2006 Abstracts
+  -- ----------------------------------------------------------------------
+  -->
+
+<!-- Header -->
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+  <TITLE>
+    Commercial Users of Functional Programming 2006 Abstracts
+  </TITLE>
+
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>John Launchbury</o:Author>
+  <o:Template>Normal</o:Template>
+  <o:LastAuthor>John Launchbury</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>0</o:TotalTime>
+  <o:LastPrinted>2004-03-04T18:34:00Z</o:LastPrinted>
+  <o:Created>2004-09-09T23:08:00Z</o:Created>
+  <o:LastSaved>2004-09-09T23:08:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>338</o:Words>
+  <o:Characters>1927</o:Characters>
+  <o:Company>Galois Connections</o:Company>
+  <o:Lines>16</o:Lines>
+  <o:Paragraphs>3</o:Paragraphs>
+  <o:CharactersWithSpaces>2366</o:CharactersWithSpaces>
+  <o:Version>10.260</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:DisplayHorizontalDrawingGridEvery>0</w:DisplayHorizontalDrawingGridEvery>
+  <w:DisplayVerticalDrawingGridEvery>0</w:DisplayVerticalDrawingGridEvery>
+  <w:UseMarginsForDrawingGridOrigin/>
+ </w:WordDocument>
+</xml><![endif]-->
+<style  type="text/css">
+<!--
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:Times;}
+h1
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	font-size:16.0pt;
+	font-family:Helvetica;
+	mso-font-kerning:16.0pt;}
+h2
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:2;
+	font-size:14.0pt;
+	font-family:Helvetica;
+	font-style:italic;}
+h3
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:3;
+	font-size:13.0pt;
+	font-family:Helvetica;}
+a:link, span.MsoHyperlink
+	{color:green;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:green;
+	text-decoration:underline;
+	text-underline:single;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:.5in 63.0pt 45.0pt 63.0pt;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+@list l0
+	{mso-list-id:12850081;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1750415018 66569 197641 328713 66569 197641 328713 66569 197641 328713;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        color:  black;
+        background-color: white;
+      }
+      table.main  { 
+        width: 95%;
+        border: 0;
+        border-spacing: 0;
+        margin: 0 0 0 0;
+        padding: 1em 1em 1em 5%;
+        background-color: white;
+      }
+      table.main td.solid { 
+        border: 0;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        background-color: #EEEEEE;
+      }
+      table.main td.corner { 
+        width: 23px;
+        height: 23px;
+        border: 0;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        background-color: white;
+      }
+      table.main td.corner img { 
+        width: 23px;
+        height: 23px;
+        border: 0;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+      }
+      table.main td.side { 
+        width: 23px;
+        border: 0;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        background-color: #EEEEEE;
+      }
+      table.speakers {
+        border: 0;
+        border-spacing: 0;
+        margin: 0 0 0 0;
+        padding: 1em 1em 0 0;
+        background-color: #EEEEEE;
+      }
+      table.speakers td.name a {
+        text-decoration: none;
+        font-weight: bold;
+        color:  #006331;
+        margin: 0 0 0 2ex;
+      }
+
+      table.speakers td.inst {
+      }
+      table.speakers td.topic {
+        font-style: italic;
+        font-weight: 200;
+        padding: 0 0 1.5ex 0;
+      }
+      table.speakers td.topic a {
+        text-decoration: none;
+        font-weight: 200;
+        color:  #006331;
+      }
+      p.heading {
+        text-align:  center;
+        font-weight: bold;
+        font-size: larger;
+        color:  #000000;
+      }
+      p.copyright {
+        text-align: center;
+        font-size: x-small;
+        color: #000066;
+      }
+
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1027">
+  <o:colormru v:ext="edit" colors="#d2e6ff,#e0e0e0"/>
+  <o:colormenu v:ext="edit" fillcolor="#e0e0e0"/>
+ </o:shapedefaults></xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body bgcolor="#FFFFFF" lang=EN-US link=green vlink=green style='tab-interval:.5in'>
+  <table class="main">
+    <tr>
+      <td class="corner"><img src="../images/smallUL.gif"></td>
+      <td class="solid"></td>
+      <td class="corner"><img src="../images/smallUR.gif"></td>
+    </tr>
+   <tr>
+      <td class="side">&nbsp;</td>
+      <td class="solid" align="left">
+
+<H1 align="center"><A HREF="main.html">CUFP 2006</a> Abstracts</H1>
+
+<P>
+
+<HR>
+
+<!-- begin abstracts -->
+<P>
+<A name="CliffordBeshers"></A>
+<B>Haskell and the Linspire Toolchain</B>
+<BR>
+<B>Speaker: </B><EM>Clifford Beshers</EM>
+<BR>
+<B>Abstract:</B>
+<BR>
+Linspire, Inc. has used functional programming since its inception in
+2001, beginning with extensive use of O'Caml, with a steady shift to
+Haskell as its implementations and libraries have matured.  Hardware
+detection, software packaging and CGI web page generation are all
+areas where we have used functional programming extensively.
+<P>
+Haskell's feature set lets us replace much of our use of little
+languages (e.g., bash or awk) and two-level languages (C or C++ bound
+to an interpreted language), allowing for faster development, better
+code sharing and ultimately faster implementations.  Above all, we
+value static type checking for minimizing runtime errors in
+applications that run in unknown environments and for wrapping legacy
+programs in strongly typed functions to ensure that we pass valid arguments.
+<BR>
+
+<HR width=80%>
+
+<P>
+<A name="SteveSims"></A>
+<B>Building a Startup with Standard ML</B>
+<BR>
+<B>Speaker: </B><EM>Steve Sims</EM>
+<BR>
+<B>Abstract:</B>
+<BR>
+Reactive Systems, Inc. (RSI) was founded in 1999 with the goal of
+developing and marketing tools that help engineers improve software
+quality while decreasing software development costs.  RSI launched
+its Reactis testing and validation package in 2002 and has
+subsequently built a customer base that includes over 30 major
+automotive and aerospace companies located around the world.  In
+this presentation, we discuss how the use of Standard ML (SML) has
+proved to be a key factor in the success of RSI. The use of SML as
+the primary implementation language for Reactis has yielded
+substantial productivity improvements that enabled a small team to
+develop, deploy, enhance and maintain a very complex product.  In
+addition to its use in Reactis, RSI leverages SML to build the
+company intranet (which automates a number of important business
+processes), to build its public website, and to implement an
+extensive automated regression test suite for Reactis.  We will also
+describe some more intangible benefits such as the role that
+pervasive SML use has played in attracting and retaining highly
+productive employees.
+<BR>
+
+<HR width=80%>
+
+<P>
+<A name="RichardCleis"></A>
+<B>Scheme in Space</B>
+<BR>
+<B>Speaker: </B><EM>Richard Cleis</EM>
+<BR>
+<B>Abstract:</B>
+<BR>
+The Starfire Optical Range is an Air Force Research Laboratory engaged in
+Atmospheric Research near Albuquerque, New Mexico.  Since the late 1980's,
+nearly all systems have been controlled by C programs, an acceptable approach
+until the increased complexity and variety of experiments began to overwhelm
+the programmers.  In early 2003, we collected an image of the Space Shuttle
+Columbia as it passed through New Mexico on its way to landing in Florida.
+The flight turned out to be Columbia's last, and the image played a
+significant role in the aftermath.  However, new software for such a special
+case needed to be developed (mostly overnight) yet was not completed in
+time. This shortcoming severely limited the performance of the system that
+tracked the Shuttle and collected the images.  A search for a better way than
+programming in C was immediately sought, eventually leading to Scheme.
+<P>
+In this presentation we use the Shuttle incident to show how Scheme could have
+significantly improved our development productivity and ultimately increased
+systems performance.  We also describe the technical background of precision
+telescope systems, the set-up of our new Scheme-enhanced software, emerging
+programming techniques, and the social obstacles that affect the
+implementation of languages which aren't C++ or Java.
+<BR>
+
+<HR width=80%>
+
+<P>
+<A name="YaronMinsky"></A>
+<B>Caml Trader: Adventures of a Functional Programmer on Wall Street</B>
+<BR>
+<B>Speaker: </B><EM>Yaron Minsky</EM>
+<BR>
+<B>Abstract:</B>
+<BR>
+Jane Street Capital is a proprietary trading company in Manhattan that
+has recently shifted to using OCaml as its primary development language,
+both for quantitative research and for building of high-performance
+trading systems and infrastructure.  This talk will discuss how the
+initial decision was made and the resulting changes to our development
+process and our business.
+<BR>
+
+<HR width=80%>
+
+<P>
+<A name="HowardMansell"></A>
+<B>Why Functional Programming Matters to Credit Suisse</B>
+<BR>
+<B>Speaker: </B><EM>Howard Mansell</EM>
+<BR>
+<B>Abstract:</B>
+<BR>
+We will give a brief overview of the activities of the quantitative modeling
+group at Credit Suisse (an investment bank), and the kinds of systems we
+build. A significant number of components of our system can be implemented
+rather naturally using a pure functional language. In our presentation, we
+will show why this is the case, and discuss the pros and cons of using Haskell
+for this task - focusing more on a system's than a language point of view.
+<BR>
+
+<HR width=80%>
+
+<P>
+<A name="RoopeKaivola"></A>
+<B>Analysis of Microprocessor Components with a Functional Language-based
+Formal Verification Toolbox</B>
+<BR>
+<B>Speaker: </B><EM>Roope Kaivola</EM>
+<BR>
+<B>Abstract:</B>
+<BR>
+Formal verification of microprocessor components has been pursued in
+various forms for roughly a decade now in Intel. One of the most succesful
+approaches in the area is based on a verification framework which combines
+a strongly typed lazy functional programming language reFLect with
+built-in symbolic circuit simulation and symbolic evaluation facilities
+for Booleans. Both the specifications against which circuit behaviours are
+compared, and the routines performing the analysis are coded in reFLect,
+and the verification effort typically involves significant software
+engineering issues. I will discuss the verification of floating-point
+arithmetic units in recent Intel processors against IEEE floating-point
+standard in this framework, concentrating particularly in the coding
+aspects related to symbolic evaluation.
+<BR>
+
+<HR width=80%>
+<P>
+<A name="RishiyurNikhil"></A>
+<B>Bringing Declarative Programming into a Commercial Tool for Developing
+Integrated Circuits</B>
+<BR>
+<B>Speaker: </B><EM>Rishiyur Nikhil</EM>
+<BR>
+<B>Abstract:</B>
+<BR>
+Developing a modern integrated circuit (ASIC or FPGA) is an enormously
+expensive process involving specification, modeling (to choose and fix
+the architecture), design (to describe what will become silicon) and
+verification (to ensure that it meets the specs), all before actually
+committing anything to silicon (where the cost of a failure can be
+tens of millions of dollars).  Bluespec, Inc. is a three year-old
+company that provides language facilities, methodologies, and tools
+for this purpose, within the framework of the IEEE standard languages
+SystemVerilog and SystemC, but borrowing ideas heavily from Term
+Rewriting Systems and functional programming languages like Haskell.
+In this talk, after a brief technical overview to set the context, we
+will describe our tactics and strategies, and the challenges we face,
+in introducing declarative programming ideas into this field, both
+externally (convincing customers about the value of these ideas) and
+internally (using Haskell for our tool implementation). 
+<BR>
+
+<HR width=80%>
+
+<P>
+<A name="ErikStenman"></A>
+<B>Betting on Functional Programming and Winning</B>
+<BR>
+<B>Speaker: </B><EM>Erik Stenman</EM>
+<BR>
+<B>Abstract:</B>
+<BR>
+In Sweden, as in many countries, consumers are still afraid to use credit
+cards on-line. This is not only a question of security, but mainly a social
+phenomenon, a question of trust. How will they know that they get what they
+pay for? Also, most consumers, at least when it comes to buying clothes, want
+to see, and perhaps even try, the merchandise before they pay for it. But for
+this to be possible over the Internet the on-line shop has to trust the
+consumer to pay after the delivery.
+<P>
+Here we have a classic security problem, how do we get two parties that don't
+know each other to trust each other? There is of course a simple classical
+solution to the problem: introduce a mediator that both parties trust. This
+can still be a problem, since it is not easy to find a mediator that two
+random parties both trusts. As we shall see, the problem is actually a bit
+easier, since with the right solution, we only need to establish trust in one
+direction.
+<P>
+This is where Kreditor comes into the picture. Kreditor brings old and proven
+business methods like invoicing and factoring to the new Internet era. With
+Kreditor's services the consumer can get the merchandise first and pay later,
+while the on-line shop can put its trust to Kreditor knowing that it will get
+payed. This way the customer takes no risk, since he only pays if he is
+satisfied with the merchandise.
+<P>
+Providing timely credit services on-line requires a secure, robust, error
+free, high availability system. Kreditor's solution is fascinating in that it
+is a financial application completely written in Erlang.
+<P>
+In this talk I will present what it takes to implement such a system, and the
+benefits and problems of using Erlang, but mainly I will talk about how and
+why Erlang was chosen for the task.
+<BR>
+
+<HR width=80%>
+
+<!--
+<P>
+<A name=""></A>
+<B></B>
+<BR>
+<B>Speaker: </B><EM></EM>
+<BR>
+<B>Abstract:</B>
+<BR>
+
+<BR>
+-->
+
+<!-- ----------------------------------------------------------------------
+  -- Closing up
+  -->
+
+<EM>
+August 15th 2006
+</EM>
+
+
+
+
+     </td>
+      <td class="side">&nbsp;</td>
+    </tr>
+    <tr>
+      <td class="corner"><img src="../images/textBodyBL.gif"></td>
+      <td class="solid"></td>
+      <td class="corner"><img src="../images/textBodyBR.gif"></td>
+    </tr>
+  </table>
+
+
+</BODY>
+</HTML>
+
+<!-- ----------------------------------------------------------------------
+  -- The end.
+  -->
